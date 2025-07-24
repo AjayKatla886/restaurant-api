@@ -83,6 +83,11 @@ Ajay Katla
 
 💼 Full Stack Java Developer
 
+📑 Swagger UI
+Access Swagger after starting the app:
+http://localhost:9090/swagger-ui/index.html
+
+
 
 🪄 License
 This project is licensed under the MIT License.
