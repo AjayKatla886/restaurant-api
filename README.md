@@ -50,3 +50,52 @@ spring.datasource.password=YOUR_PASSWORD
 
 Run The Application
 mvn spring-boot:run
+
+📬 API Endpoints
+Method	Endpoint	Description
+POST	/api/users/register	Register a new user
+POST	/api/users/login	Login by email/phone
+GET	/api/users/all	List all users
+GET	/api/users/{email}	Get user by email
+PUT	/api/users/{email}	Update name/phone
+DELETE	/api/users/{email}	Delete user
+📚 Swagger Documentation
+After running the app:
+
+📄 Visit: http://localhost:9090/swagger-ui/index.html
+
+📌 Project Structure
+css
+Copy
+Edit
+src/
+ └── main/
+     ├── java/com/noa/
+     │    ├── controller
+     │    ├── model
+     │    ├── repository
+     │    ├── service
+     │    └── RestaurantApiApplication.java
+     └── resources/
+          ├── application.properties
+👨‍💻 Author
+Ajay Katla
+
+💼 Full Stack Java Developer
+
+
+🪄 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ Step 2: Commit and push it
+
+```bash
+git add README.md
+git commit -m "Add README.md with project overview"
+git push origin main
